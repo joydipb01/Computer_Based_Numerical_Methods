@@ -10,7 +10,7 @@ float func(float x, int i){
                 break;
         case 3: return x-1.4*cos(x);
                 break;
-        case 4: return 2*(x-sin(x));
+        case 4: return 2*(x-sin(x))-1;
                 break;
         case 5: pow(x, 3)-5*x+1;
     }
@@ -49,6 +49,17 @@ int main(){
                     x0=0.5;
                     x1=1;
                     break;
+            case 3: 
+                    x0=0;
+                    x1=1;
+                    break;
+            case 4: 
+                    x0=1;
+                    x1=2;
+                    break;
+            case 5: 
+                    x0=1;
+                    x1=2;
         }
         bis(x0, x1, i);
     }
