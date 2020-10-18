@@ -12,7 +12,7 @@ float func(float x, int i){
                 break;
         case 4: return 2*(x-sin(x))-1;
                 break;
-        case 5: pow(x, 3)-5*x+1;
+        case 5: return pow(x, 3)-5*x+1;
     }
 }
 
