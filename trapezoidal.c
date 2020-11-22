@@ -45,6 +45,6 @@ int main(){
         printf("INTEGRAL NO. %d\n", i);
         for(n=1;n<=19;n++)
             trapezoidal(x0, x1, n, i);
-        printf("\n");
+        printf("\n\n");
     }
 }
