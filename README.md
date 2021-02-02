@@ -4,4 +4,5 @@ C programs of various numerical methods to:
 1. Find roots of polynomials
 2. Find solutions to systems of linear equations
 3. Interpolate based on given data
-4. Find solutions to ordinary differential equations (ODE)
+4. Perform numerical differentiation/numerical integration based on given data
+5. Find solutions to ordinary differential equations (ODE)
